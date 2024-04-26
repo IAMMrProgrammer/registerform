@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(199, 199, 199)
+    }
+#main{
+ min-height: 300px;
+ width: 600px;
+background-color: rgb(176, 219, 236);
+border-radius: 10px;
+margin:100px auto;
+}
+#register{
+    background-color: rgb(0, 0, 120);
+    width: calc(100% - 40px);
+    height: 50px;
+    padding: 2px 10px 5px 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+#register h1{
+    text-transform: capitalize;
+    color: white;
+    position: relative;
+    bottom: 10px;
+   
+}
+#text>p {
+    margin-left: 65%;
+}
+.span1{
+    color: red;
+    padding-left: 5px;
+}
+#logo{
+    text-align: center;
+}
+#l{
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 5px;
+}
+#form {
+   margin-left:50px;
+   margin-right: 50px;
+}
+input{
+    margin-bottom: 20px;
+    padding: 5px;
+    height: 25px;
+    width:65%;
+    padding-left: 40px;
+    border: 1px solid slategrey;
+    border-radius: 5px;
+    outline: none;
+    cursor:pointer ;
+}
+input:focus{
+    border-bottom: 1px solid red;
+}
+input:hover{
+    border-bottom: 2px solid pink;
+}
+input:hover::placeholder{
+    color: red;
+}
+#username:active{
+    border-bottom: 1px solid rgb(0, 150, 0);
+}
+#username{
+    padding-left: 100px;
+}
+#email{
+    padding-left: 100px;
+}
+#phone{
+     padding-left: 100px;
+}
+#password{
+     padding-left: 100px;
+}
+#password2{
+     padding-left: 100px;
+}
+#username input{
+    background-image: url(img/u.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left center;
+}
+#email input{
+    background-image: url(img/email.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left center;
+}
+#phone input{
+    background-image: url(img/ph.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left center;
+}
+#password input{
+    background-image: url(img/pass.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left center;
+}
+#password2 input{
+    background-image: url(img/paass.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left center;
+}
+#foot{
+    margin: 0 100px;
+}
+#footer{
+    background-color: rgb(0, 0, 90);
+    padding: 15px 15px 0 100px;
+    border-radius: 0 0 10px 10px;
+}
+</style>
+<body>
+<div id="main">
+    <div id="register">
+            <h1>register</h1>
+        </div>
+        <div id="text">
+            <p>Already member?<span class="span1">Sign in</span></p>
+        </div>
+        <div id="logo">
+            <div id="l"><img src="img/fb.png" alt="" height="40px" width="40px">
+            <img src="img/inst.png" alt=""height="35px" width="40px">
+            <img src="img/twi.jpg" alt=""height="40px" width="45px">
+            <img src="img/fire.webp" alt=""height="40px" width="45px">
+            <img src="img/git.png" alt=""height="40px" width="45px"></div>
+        </div>
+        <div style="align-items: center;">
+        <div id="username">
+            <form action="">
+            <label for="">
+                <input type="text" name="username" placeholder="Username">
+            </label>
+        </div>
+            <div id="email"><label for="">
+                <input type="email" name="email" placeholder="Email">
+            </label>
+            </div>
+           <div id="phone"> <label for="">
+                <input type="number" name="phone" placeholder="Phone">
+            </label>
+            </div>
+            <div id="password"><label for="">
+                <input type="password" name="password" placeholder="Password">
+            </label>
+            </div>
+            <div id="password2"><label for="">
+                <input type="password" name="password2" placeholder="Repeat Your Password">
+            </label>
+            </div>
+</div>
+</form>
+<div id="foot">
+    <p>By clicking register you agree to our <span class="span1">terms of service</span></p>
+</div>
+
+<div id="footer">
+<input type="button" value="REGISTER" style="height: 40px; width: 400px; background-color: darkturquoise;">
+</div>        
+</div>
+<div>
+    <h1>M.ALIYAN PIRZADA</h1>
+    
+    <h2>ROLL NO: 8551</h2>
+</div>
+
+
+
+</body>
+</html>
